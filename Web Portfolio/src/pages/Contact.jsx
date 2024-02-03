@@ -1,20 +1,76 @@
+import React, { useState } from 'react';
+
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // You can handle form submission here
+    console.log('Form submitted:', formData);
+    // Reset form fields
+    setFormData({
+      name: '',
+      email: '',
+      message: ''
+    });
+  };
+
   return (
     <div>
       <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <p>If you wish to contact me, please leave your name, email address and a short message and will reach out as soon as possible!!</p>
+      <br />
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label htmlFor="name">Name</label>
+          <br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label htmlFor="email">Email</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div>
+          <label htmlFor="message">Message</label>
+          <br />
+          <textarea
+            id="message"
+            rows="4"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
     </div>
   );
 }

@@ -1,15 +1,19 @@
+import selfPortrait from "./assets/selfPortrait.png";
+
 export default function About() {
   return (
     <div>
       <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <div className="about-container">
+        <div className="portraitContainer">
+          <img className="selfPortrait" src={selfPortrait} alt="selfPortrait" />
+        </div>
+        <div className="about-text">
+          <p>
+            Hi there! I'm Kunal, a versatile full-stack developer with a passion for creating dynamic web solutions. With expertise in JavaScript, React, and MySQL, I thrive on bringing innovative ideas to life in the digital realm. Leveraging my background in finance, real estate, and sales, I bring a unique perspective to every project, ensuring not just functionality, but also strategic value. Let's collaborate and build something extraordinary together!"
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

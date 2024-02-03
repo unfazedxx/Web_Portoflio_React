@@ -1,0 +1,15 @@
+.resumePageAlignment {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 60px; /* Add spacing at the bottom to avoid overlapping with the footer */
+
+  }
+  
+  .centeredContent {
+    text-align: center;
+  }
+.resumeImg {
+    width: 75%;
+    height: 75%;
+}

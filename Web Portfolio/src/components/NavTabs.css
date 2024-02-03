@@ -1,0 +1,60 @@
+/* Header content */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 46px;
+    border-bottom: 1px solid #ccc; /* Add border at the bottom */
+    background: #734f96;
+    padding: 0 20px; /* Add horizontal padding */
+  }
+  
+  /* Logo */
+  .logo {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  /* Navigation links */
+  .nav-tabs {
+    display: flex;
+    border-bottom: none; /* Remove border bottom for nav links */
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    transition: color 0.s;
+    border-bottom: none; /* Remove border bottom for nav links */
+  }
+  
+  .nav-link:hover {
+    color: white;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #734f96;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .header-content {
+      flex-direction: column; /* Stack items vertically */
+      height: auto; /* Remove fixed height */
+    }
+  
+    .nav-tabs {
+      margin-top: 10px; /* Add margin between logo and nav links */
+    }
+  
+    .nav-item {
+      margin-right: 0; /* Remove right margin for nav items */
+      margin-bottom: 5px; /* Add bottom margin for nav items */
+    }
+  }

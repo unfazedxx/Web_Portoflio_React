@@ -3,10 +3,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 import Error from './pages/Error';
-import Home from './pages/Home';
+import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import "./App.css";
 
 const router = createBrowserRouter([
   {
@@ -14,15 +15,10 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <Error />,
     children: [
-      //this is the home page
+      //About page is the landing page
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: '/About',
         element: <About />,
-
       },
       {
         path: '/Portfolio',
@@ -31,6 +27,11 @@ const router = createBrowserRouter([
       {
         path: '/Contact',
         element: <Contact />,
+      },
+      {
+        path: '/Resume',
+        element: <Resume />,
+
       },
     ],
   },

@@ -1,5 +1,6 @@
 import "./Portfolio.css"
 import React from 'react';
+// importing the images for the projects to later be used 
 import mingo from "./assets/mingo.png";
 import textEditor from "./assets/texteditor.jpeg"
 import noteTaker from "./assets/NoteTaker.png"
@@ -7,6 +8,8 @@ import scheduler from "./assets/scheduler.png"
 import multipleChoice from "./assets/multchoice.png"
 import password from "./assets/password.png"
 export default function Portfolio() {
+
+  //array of project objects 
   const projects = [
     {
       title: 'Mingo Dating App',
@@ -51,6 +54,8 @@ export default function Portfolio() {
       github: "https://github.com/unfazedxx/Online_Random_Password_Generator"
     },
   ];
+
+  //calling the array items for display on the page
 
   return (
     <div>

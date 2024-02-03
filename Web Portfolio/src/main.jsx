@@ -16,6 +16,7 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       //About page is the landing page
+      //creating the path for each nav link 
       {
         index: true,
         element: <About />,

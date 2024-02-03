@@ -1,4 +1,5 @@
 /* nav items */
+
 /* moved to seperate nav css file */
 
 
@@ -10,26 +11,26 @@
 }
 
 .portraitContainer {
-  max-width: 300px; /* Adjust the max width of the image container */
+  max-width: 300px; /* max width of the image container */
 }
 
 .selfPortrait {
-  width: 100%; /* Ensure the image fills its container */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+  width: 100%; /* ensure the image fills its container */
+  height: auto; /* aspect ratio */
+  max-width: 100%; /* ensure the image doesn't exceed its original size */
 }
 
 .about-text {
-  margin-left: 50px; /* Adjust spacing between image and text */
+  margin-left: 50px; /* spacing between image and text */
 }
 
 .about-text p {
-  max-width: 300px; /* Limit the width of the text container */
+  max-width: 300px; /* width of the text container */
 }
 
 .project {
-    max-width: 300px; /* Adjust this value as needed */
-    height: auto; /* Automatically adjust height based on width */
+    max-width: 300px; 
+    height: auto; /* adjust height based on width */
   }
   
   /* footer styling */
@@ -45,5 +46,5 @@
   }
 
   .icon-link {
-    margin: 0 10px; /* Add margin between icons */
+    margin: 0 10px; /* margin between icons */
   }

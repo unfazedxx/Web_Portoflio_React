@@ -45,12 +45,12 @@
   /* Responsive styles */
   @media screen and (max-width: 768px) {
     .header-content {
-      flex-direction: column; /* Stack items vertically */
-      height: auto; /* Remove fixed height */
+      flex-direction: column; 
+      height: auto; 
     }
   
     .nav-tabs {
-      margin-top: 10px; /* Add margin between logo and nav links */
+      margin-top: 10px; 
     }
   
     .nav-item {

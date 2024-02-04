@@ -6,7 +6,7 @@
     height: 46px;
     border-bottom: 1px solid #ccc; /* Add border at the bottom */
     background: #734f96;
-    padding: 0 20px; /* Add horizontal padding */
+    padding: 0 10px; /* Add horizontal padding */
   }
   
   /* Logo */
@@ -24,7 +24,7 @@
   }
   
   .nav-item {
-    margin-right: 10px;
+    margin-right: 0px;
   }
   
   .nav-link {
@@ -56,5 +56,21 @@
     .nav-item {
       margin-right: 0; /* Remove right margin for nav items */
       margin-bottom: 5px; /* Add bottom margin for nav items */
+    }
+  }
+
+  .nav.nav-tabs {
+    display: flex;
+    justify-content: space-between;
+    /* Add other necessary styles */
+  }
+  
+  @media (max-width: 768px) { 
+    .nav.nav-tabs {
+      flex-wrap: wrap;
+    }
+    
+    .nav.nav-tabs li {
+      flex: 0 0 100%; /* Each nav item occupies the full width */
     }
   }

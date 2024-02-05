@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./Contact.css"; // assuming you have a CSS file for styling
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -30,8 +31,10 @@ export default function Contact() {
 
   //html style jsx code to display on the page 
   return (
-    <div>
+    <div className="container">
+      <div className='contactContainer'>
       <h1>Contact Page</h1>
+      </div>
       <p>If you wish to contact me, please leave your name, email address and a short message and will reach out as soon as possible!!</p>
       <br />
       <form onSubmit={handleSubmit}>

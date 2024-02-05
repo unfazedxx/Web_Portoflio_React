@@ -3,35 +3,7 @@
 /* moved to seperate nav css file */
 
 
-/* about page */
 
-.about-container {
-  display: flex;
-  align-items: center;
-}
-
-.portraitContainer {
-  max-width: 300px; /* max width of the image container */
-}
-
-.selfPortrait {
-  width: 100%; /* ensure the image fills its container */
-  height: auto; /* aspect ratio */
-  max-width: 100%; /* ensure the image doesn't exceed its original size */
-}
-
-.about-text {
-  margin-left: 50px; /* spacing between image and text */
-}
-
-.about-text p {
-  max-width: 300px; /* width of the text container */
-}
-
-.project {
-    max-width: 300px; 
-    height: auto; /* adjust height based on width */
-  }
   
   /* footer styling */
 

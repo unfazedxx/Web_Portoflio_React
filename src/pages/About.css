@@ -1,0 +1,42 @@
+/* About.css */
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: -5px;
+}
+
+.title-container {
+  margin-bottom: 10px; /* Reduce the bottom margin */
+  margin-top: 10px; /* Add margin to the top */
+  max-width: 300px; /* Set a maximum width for the title container */
+  height: 100px; /* Set the height of the title container */
+  overflow: hidden; /* Hide overflow if title content exceeds container height */
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-text {
+  margin-top: 20px;
+  text-align: left; /* Align text to the left */
+  max-width: 600px; /* Set a maximum width */
+}
+
+.selfPortrait {
+  width: 200px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .about-text {
+    text-align: center; /* Center text on smaller screens */
+  }
+}

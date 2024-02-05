@@ -1,0 +1,27 @@
+/* Footer.css */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-link {
+    margin: 0 5px; /* Adjust the margin to create space between icons */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .icon-link {
+      margin: 0 3px; /* Adjust the margin for smaller screens */
+    }
+  }
+  

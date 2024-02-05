@@ -1,10 +1,11 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaStackOverflow, FaTwitter } from 'react-icons/fa';
+import "./Footer.css"; // Assuming you have a CSS file for styling
 
 const Footer = () => {
   return (
-    <footer>
-      <div className='footer'>
+    <footer className="footer">
+      <div className='icon-container'>
         <a href="https://github.com/unfazedxx" className="icon-link" target="_blank" rel="noopener noreferrer">
           <FaGithub size={20} /> 
         </a>
@@ -18,6 +19,5 @@ const Footer = () => {
     </footer>
   );
 };
-
 
 export default Footer;

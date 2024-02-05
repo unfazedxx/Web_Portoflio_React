@@ -16,7 +16,7 @@ export default function About() {
         <div className="about-text">
           {/* about me info */}
           <p>
-            Hey there! I'm Kunal, a versatile full-stack developer passionate about crafting dynamic web solutions. With expertise in JavaScript, React, and MySQL, I love bringing innovative ideas to life. Drawing from my background in finance, real estate, and sales, I offer a unique perspective to each project, ensuring both functionality and strategic value. Let's collaborate and create something extraordinary!
+            Hey there! I'm Kunal, a versatile full-stack developer passionate about crafting dynamic web solutions. With expertise in JavaScript, React, and MySQL, I love bringing innovative ideas to life. Drawing from my background in finance, real estate, and sales, I offer a unique perspective to each project. Let's collaborate and create something extraordinary!
           </p>
         </div>
       </div>

@@ -18,6 +18,8 @@ export default function About() {
           <p>
             Hey there! I'm Kunal, a versatile full-stack developer passionate about crafting dynamic web solutions. With expertise in JavaScript, React, and MySQL, I love bringing innovative ideas to life. Drawing from my background in finance, real estate, and sales, I offer a unique perspective to each project. Let's collaborate and create something extraordinary!
           </p>
+          <br />
+          <br />
         </div>
       </div>
     </div>

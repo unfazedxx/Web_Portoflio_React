@@ -35,7 +35,7 @@ export default function Contact() {
       <div className='contactContainer'>
       <h1>Contact Page</h1>
       </div>
-      <p>If you wish to contact me, please leave your name, email address and a short message and will reach out as soon as possible!!</p>
+      <p>If you wish to contact me, please leave your name, email address and a short message and I will reach out as soon as possible!!</p>
       <br />
       <form onSubmit={handleSubmit}>
         {/* Name input */}

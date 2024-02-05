@@ -8,7 +8,7 @@ function NavTabs() {
     <header>
       <div className='header-content'>
         <div className='logo'>
-          Kunal's Portfolio
+          Kunal Shah's Web Portfolio
         </div>
         <ul className="nav nav-tabs">
           <li className="nav-item">

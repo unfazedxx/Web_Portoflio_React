@@ -33,7 +33,7 @@ export default function Contact() {
   return (
     <div className="container">
       <div className='contactContainer'>
-      <h1>Contact Page</h1>
+      <h1>Contact</h1>
       </div>
       <p>If you wish to contact me, please leave your name, email address and a short message and I will reach out as soon as possible!!</p>
       <br />

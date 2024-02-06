@@ -4,6 +4,7 @@ import "./NavTabs.css"
 function NavTabs() {
   const currentPage = useLocation().pathname;
 
+  //code for the navigation bar links to send the user to the desired tab
   return (
     <header>
       <div className='header-content'>

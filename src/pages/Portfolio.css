@@ -30,3 +30,18 @@ h1 {
   text-align: center;
   padding: 30px;
 }
+.project p a:link {
+  color: blue; /* Links appear blue by default */
+  text-decoration: underline;
+}
+
+.project p a:visited {
+  color: purple; /* Links appear purple after being visited */
+  text-decoration: underline;
+
+}
+
+/* Hover effect for links */
+.project p a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
